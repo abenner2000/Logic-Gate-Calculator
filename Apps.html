@@ -182,7 +182,7 @@
               <div class="abox" id ="result"><p style='color:lightgrey'></p></div>
             </div>
             <div class="holdbox">
-              <div class="clear" onclick="clear()">
+              <div class="clear" onclick="makeclear()">
                 <p style="color: white;text-shadow: 1px 1px black;margin-left: 10px;">
                   CLEAR
                 </p>
@@ -207,7 +207,7 @@
               binary.push(a);
               blength = binary.length;
             }
-            function clear(){
+            function makeclear(){
               gate = ''
               binary = []
               document.getElementById('result').innerHTML = '';
